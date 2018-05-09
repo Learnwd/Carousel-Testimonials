@@ -1,0 +1,103 @@
+.testimonials {
+	background: #e9ecef;
+	background-size: cover;
+	background-position: center center;
+	padding: 100px 0;
+}
+
+.testimonials h2 {
+	font-size: 2.15rem;
+}
+
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+
+.carousel p {
+	color: #3a3d4b;
+}
+
+.carousel .star {
+	color: #f2bc3b;
+	font-size: 24px;
+	margin: 45px 0;
+}
+
+.carousel .item {
+	font-size: 1.45rem;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+}
+
+.carousel .item .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+
+.carousel .testimonial {
+	padding: 30px 0 10px;
+	font-weight: 600;
+}
+
+.carousel .overview {
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #555;
+}
+
+.carousel .carousel-control {
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	top: 15%;
+	background: none;
+}
+
+.carousel-control i {
+	font-size: 36px;
+	line-height: 42px;
+	position: absolute;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+
+.carousel-indicators li {
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+	background: #555;
+	box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
